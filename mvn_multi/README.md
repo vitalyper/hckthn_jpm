@@ -1,4 +1,4 @@
-Sample Maven multi-module project to be used as guine pig for Clojure POC.
+Sample Maven multi-module project to be used as guinea pig for Clojure POC.
 
  * parent - has modules, common properties and dependencies
   * api - public interface for REST web service
