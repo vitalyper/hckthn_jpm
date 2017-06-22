@@ -29,8 +29,15 @@ At minimum watch
  * Evaluating with Clojure
 
 # Incremental Build
-TODO: Describe in [Program Design Language (PDL)](https://en.wikipedia.org/wiki/Program_Design_Language)
+For each changed find first top pom.xml; add  
+name to set;
 
+Using mvn command line describe [here](http://blog.soebes.de/blog/2016/08/12/maven-incremental-module-build) only build changed modules and their dependencies, similar to below
+```
+mvn --projects module1,module2 --also-make-dependents clean package
+```
+
+Build maven incremental module plugin command line with chang
  PDL is plain language pseudocode of proposed steps to solve computing problem. 
 # Incremental Deployment
 TODO: Describe in [Program Design Language (PDL)](https://en.wikipedia.org/wiki/Program_Design_Language) 
