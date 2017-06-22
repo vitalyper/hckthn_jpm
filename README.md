@@ -37,8 +37,6 @@ Using mvn command line describe [here](http://blog.soebes.de/blog/2016/08/12/mav
 mvn --projects module1,module2 --also-make-dependents clean package
 ```
 
-Build maven incremental module plugin command line with chang
- PDL is plain language pseudocode of proposed steps to solve computing problem. 
 # Incremental Deployment
 TODO: Describe in [Program Design Language (PDL)](https://en.wikipedia.org/wiki/Program_Design_Language) 
 # Clojure Libraries Used
