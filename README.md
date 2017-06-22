@@ -21,7 +21,12 @@ to fulfill our goals step by step. Please see [this 30 minutes LambdaCD video](h
 * Latest Maven (3.x)
 * [Leiningen](https://github.com/technomancy/leiningen) - Clojure build tool on top of Maven
 * Latest Git. Windows Git [here](https://git-scm.com/download/win). If you a shell user please consider adding [git aliases in the root of this project](https://github.com/vitalyper/hckthn_jpm/.gitconfig) to your **.gitconfig**
-* IDEs setup for Clojure is bit complicated so for newbies [Light Table](http://lighttable.com) is suggested.
+* IDEs setup for Clojure is bit complicated so for newbies [Light Table](http://lighttable.com) is suggested. [Video Tutorial](http://docs.lighttable.com/tutorials/full/). 
+
+At minimum watch 
+ * Evaluation and the Console
+ * Inline Evaluation
+ * Evaluating with Clojure
 
 # Incremental Build
 TODO: Describe in [Program Design Language (PDL)](https://en.wikipedia.org/wiki/Program_Design_Language)
