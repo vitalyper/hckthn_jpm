@@ -25,7 +25,7 @@
       (shell/bash ctx (:cwd args) "mvn clean install"))
 
 (defn run-some-tests [args ctx]
-  (shell/bash ctx (:cwd args) "./go test-clj"))
+  (shell/bash ctx (:cwd args) "mvn test"))
 
 (defn some-step-that-does-nothing [args ctx]
   {:status :success})
