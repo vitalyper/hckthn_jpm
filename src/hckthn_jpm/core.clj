@@ -25,4 +25,6 @@
     (runners/start-one-run-after-another pipeline)
     ;; start the webserver to serve the UI
     (http-kit/run-server app {:open-browser? false
-                              :port          8080})))
+                              :port          9001})))
+
+(println "HI")

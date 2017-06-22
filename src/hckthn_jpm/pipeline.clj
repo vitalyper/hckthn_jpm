@@ -1,4 +1,4 @@
-(ns hckthn_jpm.pipeline
+  (ns hckthn_jpm.pipeline
   (:use [lambdacd.steps.control-flow]
         [hckthn_jpm.steps])
   (:require
@@ -6,10 +6,16 @@
 
 (def pipeline-def
   `(
-    manualtrigger/wait-for-manual-trigger
-    some-step-that-does-nothing
-    (in-parallel
-      some-step-that-echos-foo
-      some-step-that-echos-bar)
-    manualtrigger/wait-for-manual-trigger
-    some-failing-step))
+    ;manualtrigger/wait-for-manual-trigger
+    ;some-step-that-does-nothing
+    ;(in-parallel
+    ;  some-step-that-echos-foo
+    ;  some-step-that-echos-bar)
+    ;manualtrigger/wait-for-manual-trigger
+    ;some-failing-step
+    (either
+                       manualtrigger/wait-for-manual-trigger
+                       wait-for-repo)
+    (with-workspace
+      clone
+      run-some-tests)))

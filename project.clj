@@ -15,6 +15,7 @@
                            [org.clojure/java.jdbc "0.7.0-alpha3"]
                            [com.h2database/h2 "1.4.196"]
                            [korma "0.4.3"]
+                           [lambdacd-git "0.2.0"]
 ]
             :profiles {:uberjar {:aot :all}}
             :main hckthn_jpm.core)
