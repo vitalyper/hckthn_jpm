@@ -15,6 +15,15 @@
         ref      (or revision repo-branch)]
     (lambdacd-git/clone ctx repo-uri ref cwd)))
 
+(defn listchanges [args ctx]
+      (lambdacd-git/list-changes args ctx))
+
+(defn ls [args ctx]
+      (shell/bash ctx (:cwd args) "ls"))
+
+(defn build [args ctx]
+      (shell/bash ctx (:cwd args) "mvn clean install"))
+
 (defn run-some-tests [args ctx]
   (shell/bash ctx (:cwd args) "./go test-clj"))
 

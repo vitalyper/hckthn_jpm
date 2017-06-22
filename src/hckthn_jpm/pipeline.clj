@@ -18,4 +18,6 @@
                        wait-for-repo)
     (with-workspace
       clone
-      run-some-tests)))
+      listchanges
+      ls
+      build)))

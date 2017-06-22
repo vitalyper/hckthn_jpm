@@ -30,6 +30,7 @@ At minimum watch
 
 # Incremental Build
 TODO: Describe in [Program Design Language (PDL)](https://en.wikipedia.org/wiki/Program_Design_Language)
+http://blog.soebes.de/blog/2016/08/12/maven-incremental-module-build/
 
  PDL is plain language pseudocode of proposed steps to solve computing problem. 
 # Incremental Deployment
