@@ -20,7 +20,7 @@ to fulfill our goals step by step. Please see [this 30 minutes LambdaCD video](h
 * Latest Java (1.8.x)
 * Latest Maven (3.x)
 * [Leiningen](https://github.com/technomancy/leiningen) - Clojure build tool on top of Maven
-* Latest Git. Windows Git [here](https://git-scm.com/download/win). If you a shell user please consider adding [git aliases in the root of this project](https://github.com/vitalyper/hckthn_jpm/.gitignore) to your **.gitconfig**
+* Latest Git. Windows Git [here](https://git-scm.com/download/win). If you a shell user please consider adding [git aliases in the root of this project](https://github.com/vitalyper/hckthn_jpm/.gitconfig) to your **.gitconfig**
 * IDEs setup for Clojure is bit complicated so for newbies [Light Table](http://lighttable.com) is suggested.
 
 # Incremental Build
@@ -36,7 +36,7 @@ TODO: Describe in [Program Design Language (PDL)](https://en.wikipedia.org/wiki/
 * ...
 
 # TODO
-1. Generate skeleton LambdaCD project using ```lein```
+
 
 # Future Enhancements
 * Add support for clojure projects. Should be even faster since
