@@ -3,7 +3,7 @@
             [lambdacd.steps.shell :as shell]
             [lambdacd-git.core :as lambdacd-git]))
 
-(def repo-uri "https://github.com/vitalyper/mvn_multi.git")
+(def repo-uri "https://github.com/nialliain/theTimeIs.git")
 (def repo-branch "master")
 
 (defn wait-for-repo [args ctx]
