@@ -28,6 +28,15 @@ At minimum watch
  * Inline Evaluation
  * Evaluating with Clojure
 
+# To Run/Play Locally
+1. Clone the repo
+2. ```cd hckthn_jpm```
+3. Assuming **Prerequisites** above are met, run ```lein run```
+
+Open browser and navigate to **localhost:9001**. You can now iteract with build pipeline. To changed the github repo being watched for changes modify below in [steps.clj](src/hckthn_jpm/steps.clj) 
+
+```(def repo-uri "https://github.com/nialliain/theTimeIs.git")```
+
 # Incremental Build
 * For each changed file find first top pom.xml and add name to set
 * Using mvn command line describe [here](http://blog.soebes.de/blog/2016/08/12/maven-incremental-module-build) only build changed modules and their dependencies, similar to below
