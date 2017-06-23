@@ -33,7 +33,7 @@ At minimum watch
 2. ```cd hckthn_jpm```
 3. Assuming **Prerequisites** above are met, run ```lein run```
 
-Open browser and navigate to **localhost:9001**. You can now iteract with build pipeline. To changed the github repo being watched for changes modify below in [steps.clj](src/hckthn_jpm/steps.clj) 
+Open browser and navigate to **localhost:9001**. You can now iteract with build pipeline. To watch your, or other, github repo for changes modify below in [steps.clj](src/hckthn_jpm/steps.clj) 
 
 ```(def repo-uri "https://github.com/nialliain/theTimeIs.git")```
 
